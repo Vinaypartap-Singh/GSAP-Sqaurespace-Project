@@ -6,8 +6,16 @@ tl.from("#navLogo img, #navLinkUl li, #navButtons button", {
   stagger: 0.2,
 });
 
-tl.from("#page1Content h1", {
+tl.from("#page1Content h1, #page1Content img", {
   opacity: 0,
   y: 100,
   stagger: 0.3,
+});
+
+tl.from("#page1Content h5", {
+  opacity: 0,
+  y: 40,
+  stagger: 0.3,
+  repeat: -1,
+  yoyo: true,
 });

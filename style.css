@@ -104,3 +104,9 @@ nav {
   padding: 33px;
   border-radius: 100px;
 }
+
+#scrollYOYO {
+  margin-top: 10%;
+  font-weight: bold;
+  font-size: 20px;
+}
