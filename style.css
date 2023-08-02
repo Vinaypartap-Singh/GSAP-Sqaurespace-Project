@@ -58,3 +58,49 @@ nav {
   cursor: pointer;
   font-size: 16px;
 }
+
+#page1 {
+  height: 100vh;
+  display: flex;
+}
+
+#img1Absolute {
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  height: 400px;
+  width: 18%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#img2Absolute {
+  position: absolute;
+  bottom: 20px;
+  right: 2%;
+  height: 400px;
+  width: 18%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#page1Content {
+  width: 100%;
+  text-align: center;
+}
+
+#page1Content > h1 {
+  font-size: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+#headingBtn {
+  background-color: #660000;
+  font-size: 3rem;
+  margin: 28px;
+  padding: 33px;
+  border-radius: 100px;
+}
