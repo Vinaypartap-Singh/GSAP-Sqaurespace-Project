@@ -15,3 +15,46 @@ body {
   width: 100%;
   height: 100%;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  /* background-color: tomato; */
+  height: 90px;
+}
+
+#navLogo > img {
+  width: 180px;
+}
+
+#navLinkUl {
+  display: flex;
+  gap: 40px;
+}
+
+#navLinkUl > li {
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+#navButtons {
+  display: flex;
+  gap: 20px;
+}
+
+#navBtn1 {
+  background-color: transparent;
+  border: 0;
+  font-size: 16px;
+  color: white;
+}
+
+#navBtn2 {
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
