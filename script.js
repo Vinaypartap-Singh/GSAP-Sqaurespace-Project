@@ -18,4 +18,5 @@ tl.from("#page1Content h5", {
   stagger: 0.3,
   repeat: -1,
   yoyo: true,
+  duration: 0.8,
 });
